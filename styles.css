@@ -7,20 +7,20 @@
 	background-color: rgb(135, 206, 235);
 }
 
-p:first-child{
-	background-color: #000000;
-	color: #ffffff;
-}
+.article p:first-child {
+      color: white;
+      background-color: black;
+    }
 
-p:nth-child(2){
-	color: #000000;
-}
+    .article p:nth-child(2) {
+      /* Standard text color */
+    }
 
-p:last-child{
-	color: #ff0000;
-}
+    .article p:last-child {
+      color: red;
+    }
 
-uul {
+ul {
   list-style: none;
   padding: 0;
 }
